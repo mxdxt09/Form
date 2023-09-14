@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}   
+.mainPage {
+    width: 1440px;
+    height: 1310px;
+    position: relative;
+    background: #FFFFFF;
+    top: 104px;
+    left: 100px;
+    right: 100px;
+    bottom: 483px;
+
+}
+.fullCard {
+    position: absolute;
+    width: 1240px;
+    height: 723px;
+    left: 6.94%;
+    right: 6.94%;
+    top: 7.94%;
+    bottom: 36.87%;
+    background: #FFFFFF;
+    box-shadow: 0px 54px 54px rgba(74, 58, 255, 0.02), 1px 4px 104px rgba(20, 20, 43, 0.04), 0px 98px 66px rgba(19, 18, 66, 0.02);
+    border-radius: 20px;
+}
+.contactPart {
+    position: absolute;
+    width: 458px;
+    height: 688px;
+    left: 20px;
+    right: 59.79%;
+    top: 2.5%;
+    bottom: 38.17%;
+    background: #FAFAFA;
+    border-radius: 20px;
+}
+.head1 { 
+    font-style: bold;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 28.8px;
+    color: #000000;
+    width: 144px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+    line-height: 38.8px;
+    margin-left: 30px;
+}
+.head2 {
+    color: #1D2B4F;
+    font-weight: 700;
+    font-size: 18px;
+}
+.conDes {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+
+.tableForForm {
+    left: 43.4%;
+    right: 52.78%;
+    top: 13.33%;
+    bottom: 84.45%;
+    position: absolute;
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-size: 18px;
+    
+}
+h2{
+    font-size: 18px;
+}
+.txtbox1, .txtbox2, .txtbox3, .txtbox4{
+    width: 290px;
+    height: 66px;
+    box-sizing: border-box;  
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;  
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 10px;
+    padding: 20px;
+}
+.txtbox5 {
+    padding: 20px;
+}
+
+.firstR {
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.ele3 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+}
+.txtbox5 {
+    position: absolute;
+    width: 564px;
+    height: 168px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 10px;
+}
+.submitBtn {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 129px;
+    height: 58px;
+    left: 555px;
+    top: 550px;
+    background: #005981;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.submitBtn:hover {
+    cursor: pointer;
+}
+.subArea {
+    text-align: center;
+    position: absolute;
+    width: 1232px;
+    height: 309px;
+    left: 101px;
+    top: 888px;
+    line-height: 38.8px;
+    background: #EEEEEE;
+    border-radius: 12px;
+}
+.subHead {
+    margin-top: 90px;
+    line-height: 50px;
+}
+.emailBox {
+    display: flex;
+    position: absolute;
+    width: 370px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    left: 300px;
+    top: 200px; 
+    padding-left: 20px;
+}
+.subBtn {
+    width: 209px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 56px;
+    gap: 8px;
+    position: absolute;
+    height: 60px;
+    left: 60.76%;
+    right: 15.05%;
+    top: calc(50% - 60px/2 + 72.5px);
+    background: #D4A656;
+    border: 2px solid #D4A656;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+}
+.subBtn:hover {
+    cursor: pointer;
+}
